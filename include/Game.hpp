@@ -11,7 +11,7 @@ namespace Sonar {
   struct GameData {
     StateMachine machine;
     sf::RenderWindow window;
-    AssetManager manager;
+    AssetManager assets;
     InputManager input;
   };
 
