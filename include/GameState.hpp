@@ -5,9 +5,9 @@
 #include "Game.hpp"
 
 namespace Sonar {
-  class SplashState: public State {
+  class GameState: public State {
     public:
-      SplashState(GameDataRef data);
+      GameState(GameDataRef data);
 
       void Init();
 
@@ -17,8 +17,6 @@ namespace Sonar {
 
     private:
       GameDataRef _data;
-
-      sf::Clock _clock;
       sf::Sprite _background;
   };
 }
